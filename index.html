@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            text-align: center;
+        background-image: url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        }
+        h1{
+            font-size: 70px;
+            color: rgb(240, 244, 245);
+            margin: 40px;
+        }
+        #task{
+            font-size: 30px;
+            margin-top: 50px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 7px;
+        }
+        button{
+            background-color: rgb(23, 40, 34);
+            color: rgb(247, 249, 250);
+            font-size: 30px;
+            border-radius: 10px;
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <h1>To-do List</h1>
+    <form>
+        <input type="text" id="task" placeholder="Add Task Here">
+        <button type="button" id="add-task">Add</button>
+    </form>
+    <ul id="tasks"></ul>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
